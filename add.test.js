@@ -9,4 +9,8 @@ test("Should return sum of two numbers.", () => {
 
 test("Should return 0",()=>{
     expect(add(0,0)).toBe(0);
-})
+});
+
+test("Should be null", ()=>{
+    expect(add().toBeNull)
+});
