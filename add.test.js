@@ -6,3 +6,7 @@ test("Should return sum of two numbers.", () => {
     res = add(3,10);
     expect(res).toBe(13);
 });
+
+test("Should return 0",()=>{
+    expect(add(0,0)).toBe(0);
+})
